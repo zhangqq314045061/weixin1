@@ -1,0 +1,10 @@
+<div class="liaotian" ng-controller='liaotianCtrl'>
+<ul class="collection" id="liaotian">
+		<li ng-class="{'me':v.isme}" class="collection-item avatar" ng-repeat="v in laast">
+		
+			<img ng-if="v.isme" src="../jpg/9.jpg" alt="" class="circle">
+			<img ng-if="!v.isme" ng-src={{duifang}} alt="" class="circle ">
+			<p>{{v.xinxi}}</p>
+		</li>
+	</ul>
+</div>

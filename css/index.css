@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li, h1, h2, h3, h4, h5, h6 {
+  list-style: none;
+}
+
+body {
+  background: #ECEAED;
+}
+
+.head {
+  height: 44px;
+  line-height: 44px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.head .pleft {
+  float: left;
+  display: inline-block;
+  height: 100%;
+  width: 100px;
+}
+
+.head .pright {
+  float: right;
+}
+
+.head .pright a {
+  display: inline-block;
+  height: 100%;
+  color: #fff;
+  padding: 0 20px 0 0;
+}
+
+.bot {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 37px;
+  left: 0;
+}
+
+.bot ul {
+  height: auto;
+  width: 100%;
+}
+
+.bot ul li {
+  height: 48px;
+  width: 100%;
+}
+
+.bot ul li span {
+  display: inline-block;
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.bot ul li span .bbo {
+  height: 48px;
+  width: 48px;
+  background: red;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.bot ul li .both {
+  float: left;
+  height: 100%;
+  width: 80%;
+}
+
+.lef {
+  height: 48px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.lef ul {
+  height: 48px;
+  width: 100%;
+}
+
+.lef ul li {
+  height: 100%;
+  width: 25%;
+  float: left;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.wo {
+  position: absolute;
+  top: 37px;
+  left: 0;
+  height: auto;
+  width: 100%;
+  background: #ECEAED;
+}
+
+.wo ul {
+  margin-top: 20px;
+  height: auto;
+  width: 100%;
+}
+
+.wo ul li {
+  height: 46px;
+  width: 100%;
+  background: #fff;
+}
+
+.wo ul li:nth-child(2) {
+  margin-top: 1px;
+}
+
+.wo ul span {
+  height: 76px;
+  width: 100%;
+  display: inline-block;
+  background: #fff;
+}

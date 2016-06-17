@@ -1,0 +1,21 @@
+
+<div ng-controller="weixinCtrl" class="weixin">
+<ul>
+	<li ng-repeat="v in laast"  ng-class="{'showD':shows}" ng-swipe-left="shows=true" ng-swipe-right="shows=false" ng-init="shows=false">
+  <a href="#/tongxunlu/{{$index}}" class="asa" ></a>
+  <div class="sss">
+   <span class="span-img"><img ng-src={{v.image}} alt=""></span>
+  <div class="colo">
+ <span>{{v.name}}</span>
+<i>{{v.shuo}}</i>
+  </div>
+</div>
+ <div class="bbu" ng-click="del($index)">del</div> 
+	</li>
+
+</ul>
+
+
+
+</div>
+

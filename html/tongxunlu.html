@@ -1,0 +1,20 @@
+<!-- <h1 ng-controller="tongxunluCtrl">通讯录</h1> -->
+<div class="ul-1" ng-controller="tongxunluCtrl" id="tongxunlu">
+<ul >
+ <nl-list></nl-list>
+  <li ng-repeat="v in list">
+ <div class="dem">{{v.keys}}</div>
+ <div class="lisdiv" ng-repeat="n in v.people">
+ <span class="divso">
+ <img ng-src={{n.scr}} alt="1314">
+ </span>
+<div class="laoshu">{{n.name}}</div>
+</div>
+
+  </li>
+
+</ul>
+
+
+
+</div>
